@@ -4,14 +4,14 @@
       <h1>Todo List</h1>
     </header>
  
-    <ul>
+    <ol>
       {{#each tasks}}
         {{> task}}
       {{/each}}
-    </ul>
+    </ol>
   </div>
 </body>
- 
+
 <template name="task">
   <li>{{text}}</li>
 </template>
